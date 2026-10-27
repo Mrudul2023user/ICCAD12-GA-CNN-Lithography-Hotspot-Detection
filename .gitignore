@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+hotspot_env/
+
+# Local datasets - do not publish benchmark images
+iccad-official/
+data/
+datasets/
+
+# Local model checkpoints and generated training artifacts
+*.keras
+*.h5
+*.weights.h5
+checkpoints/
+logs/
+
+# Local secrets/configuration
+.env
+.env.*
+!.env.example
+
+# Local environment snapshots may contain machine-specific paths
+# environment-lock.txt
