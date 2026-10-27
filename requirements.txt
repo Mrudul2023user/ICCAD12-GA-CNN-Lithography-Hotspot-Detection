@@ -1,0 +1,12 @@
+# Core analysis/result plotting
+numpy
+pandas
+matplotlib
+scikit-learn
+
+# CNN training and hyperparameter optimization
+tensorflow
+optuna
+
+# Notebook environment
+jupyterlab
